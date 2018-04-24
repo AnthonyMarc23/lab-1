@@ -1,0 +1,109 @@
+body {
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.nav_bar {
+  width: 100%;
+}
+.nav_item {
+  color: white;
+}
+
+.active {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.center_button {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+section {
+  display: inline-block;
+}
+
+.left_side {
+  width: 600px;
+  margin: auto 0;
+  padding: 100px 20px;
+}
+
+.right_side {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 350px;
+  margin: 100px;
+}
+
+.side_bar {
+  border-left: 3px solid grey;
+  margin: 0px;
+  padding: 0px 10px 0px 20px;
+}
+
+.circle_purple {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: rgba(207, 130, 213, 0.6);
+}
+
+.circle_pink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: rgba(247, 136, 167, 0.6);
+}
+
+.circle_orange {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgba(247, 193, 162, 0.7);
+}
