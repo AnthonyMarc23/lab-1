@@ -11,6 +11,10 @@ a {
   color: black;
 }
 
+ul {
+  text-align: right;
+}
+
 li {
   display: inline-block;
   padding: 5px 5px;
@@ -28,6 +32,11 @@ li {
 
 .clear {
   clear: both;
+}
+
+.offset {
+  position: absolute;
+  left: -20px;
 }
 
 .nav_bar {
@@ -59,9 +68,10 @@ section {
 }
 
 .left_side {
-  width: 600px;
+  width: 700px;
+  height: 150vh;
   margin: auto 0;
-  padding: 100px 20px;
+  padding: 180px 20px;
 }
 
 .right_side {
@@ -69,7 +79,7 @@ section {
   float: right;
   width: 400px;
   height: 350px;
-  margin: 100px;
+  margin: 100px 25px;
 }
 
 .side_bar {
