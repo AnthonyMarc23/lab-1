@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans";
+  background-color: #F9FAFC;
 }
 
 h1 {
@@ -42,6 +43,7 @@ li {
 .nav_bar {
   width: 100%;
 }
+
 .nav_item {
   color: white;
 }
@@ -83,7 +85,7 @@ section {
 }
 
 .side_bar {
-  border-left: 3px solid grey;
+  border-left: 3px solid #69696A;
   margin: 0px;
   padding: 0px 10px 0px 20px;
 }
